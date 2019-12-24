@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<title>KAĞIT, TAŞ, MAKAS OYUNU</title>
+<meta charset="utf-8">
+<style>
+body{
+background-image: url(https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+}
+#liste img{
+margin: 25px;
+padding:5px;
+border:4px #2a2a31 solid;
+margin-left: 150px; 
+}
+
+#sonuc{
+float:left;
+margin-top: 100px;
+margin-left: 350px;
+width: 450px;
+height: 270px;
+font-size:2em;
+padding:20px;
+background: #e0d49d;
+}
+
+
+#pc-sonuc{
+float:left;
+margin-top: 100px;
+margin-left: 100px;
+width: 450px;
+height: 300px;
+font-size:2em;
+padding:5px;
+padding-left: 100px;
+background: #e0d49d;
+}
+
+</style>
+</head>
+<body>
+ <h1 style="text-align: center; font-size: 48px;">Taş-Kağıt-Makas Oyunu</h1>
+<div id="liste">
+    <img src="tas.png" id="tas" width="280" height="280" data-id="0">    
+    <img src="kagit.png" id="kagit" width="280" height="280" data-id="1">
+    <img src="makas.png" id="makas" width="280" height="280" data-id="2">
+</div>
+
+<div id="pc-sonuc">
+    <img src="" id="pc-secim"  alt="pc seçimi">
+</div>
+
+<div id="sonuc"></div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
